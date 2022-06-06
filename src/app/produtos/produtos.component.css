@@ -1,0 +1,22 @@
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    max-width: 920px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 15%;
+}
+
+.item {
+    margin-top: 6em;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+    width: 10rem;
+    background-color: rgb(19, 14, 92);
+    border-color: rgb(19, 14, 92);
+}
+
